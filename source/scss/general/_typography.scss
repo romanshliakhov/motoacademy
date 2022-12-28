@@ -1,0 +1,436 @@
+.location {
+  font-family: var(--font-family-hind);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.header__navigation-link,
+.help,
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 171%;
+}
+
+.download {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.footer__block-title {
+  font-size: 14px;
+  line-height: 171%;
+  font-weight: 700;
+}
+
+.footer__link {
+  font-size: 14px;
+  line-height: 171%;
+}
+
+.list {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.lang__title {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.lang__translation-type {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 35px;
+  line-height: 111%;
+  font-weight: 700;
+}
+
+.descr {
+  font-size: 15px;
+  line-height: 148%;
+
+  @media (max-width: 576px) {
+    br {
+      display: none;
+    }
+  }
+}
+
+.map__countries-text {
+  font-size: 24px;
+  line-height: 148%;
+}
+
+
+.map__countries-name {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.scan__descr {
+  font-family: var(--font-family-gloria);
+  font-size: 10px;
+  line-height: 115.5%;
+}
+
+.ios__benefits-title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+
+  span {
+    font-size: 15px;
+    line-height: 148%;
+    font-weight: 400;
+  }
+}
+
+.keys__head-title {
+  font-size: 24px;
+  line-height: 148%;
+  font-weight: 700;
+}
+
+.keys__country-name {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.keys__download-btn {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+}
+
+.keys__btn {
+  font-family: var(--font-family-hind);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.info__list-item {
+  font-size: 14px;
+  line-height: 148%;
+  font-weight: 700;
+}
+
+.plans__select {
+  font-family: var(--font-family-karla);
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+.plans__season {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.plans__price-current {
+  font-size: clamp(24px, 32px, 32px);
+  line-height: clamp(29px, 39px, 39px);
+  font-weight: 600;
+}
+
+.plans__price-default {
+  font-family: var(--font-family-hind);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.plans__price-discount {
+  font-family: var(--font-family-karla);
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.apk__keys-input {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.contacts__form-name {
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.contacts__form-btn {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.contacts__divider {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.contacts__email-connect {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.contacts__email-details {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.versions__downloads-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 148%;
+}
+
+.versions__item-name {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.versions__item-descr {
+  font-size: 14px;
+  line-height: 148%;
+  font-weight: 500;
+}
+
+.payment__inner-subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.payment__contacts-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.payment__btn {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.payment__contacts-divider {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.plan__price-period {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.plan__price-current {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+}
+
+.plan__price-discount {
+  font-family: var(--font-family-hind);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.benefits__list-descr {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.security__info-link {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+}
+
+.security__details-name {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.devices__content-article {
+  font-size: 14px;
+  line-height: 148%;
+  font-weight: 600;
+}
+
+.title {
+  font-size: 70px;
+  font-size: clamp(60px, 12.153vw, 70px);
+  line-height: 85.4%;
+  font-weight: 700;
+}
+
+.hero__descr {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+}
+
+.hero__about-head {
+  font-size: 15px;
+  line-height: 148%;
+  font-weight: 700;
+}
+
+.hero__app-title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+}
+
+.hero__app-descr {
+  font-family: var(--font-family-hind);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.code__title {
+  font-family: var(--font-family-hind);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.modal__head-title {
+  font-family: var(--font-family-hind);
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+.faq__item-head {
+  font-size: 18px;
+  line-height: 148%;
+  font-weight: 600;
+}
+
+.faq__item-details {
+  font-size: 14px;
+  line-height: 148%;
+}
+
+.application__country-name {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.contacts__telegram-start {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.payment__details-text {
+  font-size: 15px;
+  line-height: 148%;
+  font-weight: 600;
+}
+
+.payment__failed-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.contacts__textarea-result {
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 700;
+}
+
+.payment__success-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.payment__success-id {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.payment__activation-text,
+.payment__code-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.payment__step-count {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.payment__step-descr {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.payment__activation-code {
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: 300;
+
+  @media (max-width: 576px) {
+    font-size: 50px;
+  }
+}
+
+.payment__period {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.payment__activation-period {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+}
+
+.hero__about-text {
+  font-size: 15px;
+  line-height: 148%;
+}
+
+.access__hexagon-descr {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
