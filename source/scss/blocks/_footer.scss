@@ -1,0 +1,51 @@
+.footer {
+  padding: 100px 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 80px;
+  background-color:  var(--main-bg);
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+    grid-gap: 50px;
+  }
+
+  &__navigation-link {
+    transition: all 0.3s ease;
+
+    &--active {
+      color: var(--color-orange);
+    }
+
+    &:hover {
+      color: var(--color-orange);
+    }
+  }
+
+  &__bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 25px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 5px;
+    text-align: center;
+    // font-family: var(--font-family-russo);
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-orange);
+
+    span {
+      font-size: 13px;
+      line-height: 19px;
+      color: var(--color-grey);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color:  var(--main-bg);
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 60px 40px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+    margin: 50px 0 80px;
+  }
+
+  &__list-link {
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+  }
+
+  &__socials {
+    display: flex;
+    align-items: center;
+    grid-gap: 40px;
+  }
+
+  &__socialsl-link {
+    display: flex;
+  }
+}
+
+

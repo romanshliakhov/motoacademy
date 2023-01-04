@@ -7,7 +7,75 @@
     @include('partials/header.html',{})
 
     <main class="main">
-      Start
+      <section class="sale">
+
+      </section>
+
+      <section class="contacts">
+        <div class="map">
+          <picture>
+            <source type='image/webp' srcset='img/map.webp'>
+            <img src='img/map.png' alt='Наш адрес'>
+          </picture>
+        </div>
+
+        <div class="contacts__inner">
+          <h2 class="subtitle">Наши контакты</h2>
+
+          <ul class="contacts__list">
+            <li class="contacts__list-item">
+              <a class="contacts__list-link contacts__list-link--tel" href="tel:89991118999">
+                <svg width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#phone'></use>
+                </svg>
+                <span>8 (999) 111 8 999</span>
+              </a>
+            </li>
+
+            <li class="contacts__list-item">
+              <button class="contacts__list-link">
+                <svg width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#map'></use>
+                </svg>
+                <span>Москва, деревня Брёхово, <br>Пятницкое шоссе, 139</span>
+              </button>
+            </li>
+
+            <li class="contacts__list-item">
+              <a class="contacts__list-link" href="mailto:info@motoacademy.ru">
+                <svg width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#mail'></use>
+                </svg>
+                <span>info@motoacademy.ru</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="contacts__socials">
+            <li class="contacts__socials-item">
+              <a class="contacts__socialsl-link" href="#">
+                <svg width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#telegram'></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contacts__socials-item">
+              <a class="contacts__socialsl-link" href="#">
+                <svg width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#whatsapp'></use>
+                </svg>
+              </a>
+            </li>
+            <li class="contacts__socials-item">
+              <a class="contacts__socialsl-link" href="#">
+                <svg width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#instagram'></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     @include('partials/footer.html',{})
