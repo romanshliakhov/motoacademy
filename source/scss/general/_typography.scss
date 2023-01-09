@@ -27,7 +27,8 @@
 .form__input,
 .form__input::placeholder,
 .btn,
-.roads__detail-descr {
+.roads__detail-descr,
+.comfort__list-descr {
   font-family: var(--font-family-russo);
   font-size: 20px;
   line-height: 24px;
@@ -52,7 +53,8 @@
 }
 
 .feedback__author-name,
-.roads__detail-title {
+.roads__detail-title,
+.comfort__list-name {
   font-family: var(--font-family-russo);
   font-size: 36px;
   line-height: 43px;
