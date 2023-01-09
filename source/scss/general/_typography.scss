@@ -67,7 +67,9 @@
 }
 
 .certificates__descr,
-.certificate__price-prev {
+.certificate__price-prev,
+.hero__details-title,
+.hero__descr {
   font-family: var(--font-family-russo);
   font-size: 24px;
   line-height: 29px;
@@ -92,5 +94,12 @@
   font-size: 20px;
   line-height: 182.5%;
   color: var(--color-white);
+}
+
+.hero__details-descr {
+  font-family: var(--font-family-russo);
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--color-light-grey);
 }
 
