@@ -3,6 +3,10 @@
   grid-template-columns: repeat(2, 1fr);
   background-color:  var(--main-bg);
 
+  &__title {
+    text-align: left;
+  }
+
   &__inner {
     display: flex;
     flex-direction: column;

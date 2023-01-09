@@ -1,9 +1,10 @@
-.subtitle {
+.title {
   font-family: var(--font-family-reforma);
   font-size: 96px;
   line-height: 120px;
   font-weight: 400;
   color: var(--color-white);
+  text-align: center;
 }
 
 .contacts__list-link {
@@ -21,3 +22,24 @@
   font-weight: 400;
   color: var(--color-white);
 }
+
+.sale__form-title,
+.form__input,
+.form__input::placeholder,
+.btn {
+  font-family: var(--font-family-russo);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.form__checkbox-descr {
+  font-family: var(--font-family-russo);
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  color: var(--color-white);
+}
+

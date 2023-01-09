@@ -4,6 +4,7 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
+  background-color:  var(--main-bg);
 }
 
 html {
@@ -160,7 +161,7 @@ input[type="number"] {
 
 .container {
   position: relative;
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;

@@ -7,8 +7,68 @@
     @include('partials/header.html',{})
 
     <main class="main">
-      <section class="sale">
+      <section class="hero">
+        <h1 class="hero__title title">Подарочный сертификат на мотокросс</h1>
+      </section>
 
+      <section class="details">
+        <h2 class="details__title title">Полтора часа незабываемых впечатлений</h2>
+      </section>
+
+      <section class="gallery">
+        <h2 class="gallery__title title">Фото и видео с занятий</h2>
+      </section>
+
+      <section class="certificates">
+        <h2 class="certificates__gift-title title">Выберите именной сертификат для подарка</h2>
+      </section>
+
+      <section class="comfort">
+        <h2 class="comfort__title title">Комфорт для наших гостей</h2>
+      </section>
+
+      <section class="roads">
+        <h2 class="roads__title title">Многоуровневая трасса</h2>
+      </section>
+
+      <section class="bikes">
+        <h2 class="bikes__title title">Наши мотобайки</h2>
+      </section>
+
+      <section class="coaches">
+        <h2 class="coaches__title title">Наши тренеры</h2>
+      </section>
+
+      <section class="feedback">
+        <h2 class="feedback__title title">Отзывы</h2>
+      </section>
+
+      <section class="sale">
+        <div class="container">
+          <div class="sale__inner">
+            <h2 class="sale__title title">Узнать о действующих скидках</h2>
+
+            <form class="sale__form form">
+              <div class="sale__form-title">Отправьте свои контактные данные - и мы перезвоним. </div>
+
+              <label class="form__label">
+                <input class="form__input" type="text" name="name" placeholder="Имя">
+              </label>
+              <label class="form__label">
+                <input class="form__input" type="tel" name="phone" placeholder="Телефон">
+              </label>
+
+              <div class="form__btns">
+                <button class="form__btn btn"><span>Оставить заявку</span></button>
+
+                <label class="form__checkbox">
+                  <input class="form__checkbox-input" type="checkbox" name="confirm-checkbox">
+                  <span class="form__checkbox-descr">согласен на обработку персональных данных</span>
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
       </section>
 
       <section class="contacts">
@@ -20,7 +80,7 @@
         </div>
 
         <div class="contacts__inner">
-          <h2 class="subtitle">Наши контакты</h2>
+          <h2 class="contacts__title title">Наши контакты</h2>
 
           <ul class="contacts__list">
             <li class="contacts__list-item">
