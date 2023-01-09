@@ -26,7 +26,8 @@
 .btn,
 .roads__detail-descr,
 .comfort__list-descr,
-.bike__descr {
+.bike__descr,
+.coach__descr {
   font-family: var(--font-family-russo);
   font-size: 20px;
   line-height: 24px;
@@ -53,7 +54,8 @@
 .comfort__list-name,
 .certificates__detail,
 .details__info-title,
-.bike__title {
+.bike__title,
+.coach__title {
   font-family: var(--font-family-russo);
   font-size: 36px;
   line-height: 43px;
@@ -61,7 +63,8 @@
 }
 
 .feedback__author-socials,
-.certificate__descr {
+.certificate__descr,
+.coach__status {
   font-family: var(--font-family-russo);
   font-size: 16px;
   line-height: 20px;

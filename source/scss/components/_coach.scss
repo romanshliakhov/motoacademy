@@ -1,0 +1,24 @@
+.coach {
+  display: flex;
+  align-items: center;
+  grid-gap: 60px;
+
+  &__image {
+    max-width: 640px;
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+  }
+
+  &__info-head {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+  }
+}

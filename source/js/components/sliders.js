@@ -19,7 +19,36 @@ let bikesSlider = new Swiper(".bikes__slider", {
   slidesPerView: 1,
   centeredSlides: true,
   loop: true,
+  // effect: 'fade',
   observer: true,
+  breakpoints: {
+    320: {
+      // slidesPerView: 1.75,
+      // spaceBetween: 12,
+      },
+    768: {
+      // slidesPerView: 2.75,
+      // spaceBetween: 15,
+      // centeredSlides: true,
+      },
+    1024: {
+      // slidesPerView: 'auto',
+      // // slidesPerView: 4,
+      // spaceBetween: 20,
+      // // adaptiveHeight: true,
+      // centeredSlides: false,
+      // loop: true,
+      // observer: true,
+    }
+  }
+});
+
+let coachesSlider = new Swiper(".coaches__slider", {
+  slidesPerView: 1,
+  // centeredSlides: true,
+  // loop: true,
+  // observer: true,
+  effect: 'fade',
   breakpoints: {
     320: {
       // slidesPerView: 1.75,
