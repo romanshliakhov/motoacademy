@@ -25,7 +25,8 @@
 .form__input::placeholder,
 .btn,
 .roads__detail-descr,
-.comfort__list-descr {
+.comfort__list-descr,
+.bike__descr {
   font-family: var(--font-family-russo);
   font-size: 20px;
   line-height: 24px;
@@ -51,7 +52,8 @@
 .roads__detail-title,
 .comfort__list-name,
 .certificates__detail,
-.details__info-title {
+.details__info-title,
+.bike__title {
   font-family: var(--font-family-russo);
   font-size: 36px;
   line-height: 43px;

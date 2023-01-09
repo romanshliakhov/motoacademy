@@ -1,0 +1,27 @@
+.bike {
+  display: flex;
+
+  &__image {
+    position: relative;
+    margin-right: -137px;
+  }
+
+  &__info {
+    margin-top: 154px;
+    max-width: 700px;
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 30px;
+    background-color: var(--color-dark-grey2);
+  }
+
+  &__descr {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+  }
+}
