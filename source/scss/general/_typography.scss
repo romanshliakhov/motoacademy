@@ -50,7 +50,8 @@
 .feedback__author-name,
 .roads__detail-title,
 .comfort__list-name,
-.certificates__detail {
+.certificates__detail,
+.details__info-title {
   font-family: var(--font-family-russo);
   font-size: 36px;
   line-height: 43px;
@@ -84,5 +85,12 @@
   font-family: var(--font-family-russo);
   font-size: 18px;
   line-height: 21px;
+}
+
+.details__info-descr {
+  font-family: var(--font-family-russo);
+  font-size: 20px;
+  line-height: 182.5%;
+  color: var(--color-white);
 }
 
