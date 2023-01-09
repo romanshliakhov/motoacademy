@@ -26,7 +26,8 @@
 .sale__form-title,
 .form__input,
 .form__input::placeholder,
-.btn {
+.btn,
+.roads__detail-descr {
   font-family: var(--font-family-russo);
   font-size: 20px;
   line-height: 24px;
@@ -50,7 +51,8 @@
   color: var(--color-white);
 }
 
-.feedback__author-name {
+.feedback__author-name,
+.roads__detail-title {
   font-family: var(--font-family-russo);
   font-size: 36px;
   line-height: 43px;
@@ -63,4 +65,6 @@
   line-height: 20px;
   color: var(--color-white);
 }
+
+
 
