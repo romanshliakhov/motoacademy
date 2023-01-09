@@ -1,0 +1,9 @@
+.feedbacks {
+  padding: 100px 0 120px;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 60px;
+  }
+}
