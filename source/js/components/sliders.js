@@ -1,26 +1,23 @@
 import Swiper from '../vendor/swiper.js';
 
-// for (const container of document.querySelectorAll('.container') ) {
-//   let titleSlider = new Swiper(container.querySelector('.hero__title-slider'), {
-//     slidesPerView: 1,
-//     loop: true,
-//     // autoplay: {
-//     //   delay: 2500,
-//     // },
-//     direction: 'vertical',
-//     autoHeight: true,
-//     // cleanStyles: false,
-//     // deleteInstance: false,
-//     // effect: 'fade',
-//   });
-// };
-
 let bikesSlider = new Swiper(".bikes__slider", {
   slidesPerView: 1,
-  centeredSlides: true,
+  // centeredSlides: true,
   loop: true,
   // effect: 'fade',
   observer: true,
+  navigation: {
+    nextEl: ".bike__next",
+    prevEl: ".bike__prev",
+    clickable: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+    renderFraction: function (currentClass) {
+      return '<span class="' + currentClass + '"></span>';
+    }
+  },
   breakpoints: {
     320: {
       // slidesPerView: 1.75,
@@ -40,15 +37,28 @@ let bikesSlider = new Swiper(".bikes__slider", {
       // loop: true,
       // observer: true,
     }
-  }
+  },
+
 });
 
 let coachesSlider = new Swiper(".coaches__slider", {
   slidesPerView: 1,
   // centeredSlides: true,
   // loop: true,
-  // observer: true,
-  effect: 'fade',
+  observer: true,
+  // effect: 'fade',
+  navigation: {
+    nextEl: ".coach__next",
+    prevEl: ".coach__prev",
+    clickable: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "fraction",
+    renderFraction: function (currentClass) {
+      return '<span class="' + currentClass + '"></span>';
+    }
+  },
   breakpoints: {
     320: {
       // slidesPerView: 1.75,

@@ -1,0 +1,13 @@
+.controls {
+  display: flex;
+  align-items: center;
+  grid-gap: 25px;
+
+  &__btn {
+    cursor: pointer;
+  }
+
+  &__pagination {
+    color: var(--color-white);
+  }
+}

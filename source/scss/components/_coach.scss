@@ -21,4 +21,10 @@
     flex-direction: column;
     grid-gap: 15px;
   }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
