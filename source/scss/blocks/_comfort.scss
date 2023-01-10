@@ -1,10 +1,15 @@
 .comfort {
-  padding: 100px 0 120px;
+  padding: clamp(80px, 10.081vw, 100px) 0 clamp(80px, 12.097vw, 120px);
+  background-color:  var(--main-bg);
 
   &__inner {
     display: flex;
     flex-direction: column;
     grid-gap: 30px;
+
+    @media screen and (max-width: 992px) {
+      grid-gap: 40px;
+    }
   }
 
   &__list-item {
@@ -12,9 +17,29 @@
     padding: 0 55px;
     display: flex;
     align-items: center;
-    grid-gap: 115px;
+    grid-gap: clamp(40px, 11.593vw, 115px);
     background-color: var(--main-bg);
     box-shadow: 0px 0px 222px -7px rgba(28, 28, 28, 0.61);
+
+    @media screen and (max-width: 769px) {
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      grid-gap: 30px;
+      padding: 30px 20px 40px;
+    }
+  }
+
+  &__list-descr {
+    @media screen and (max-width: 769px) {
+      text-align: center;
+      font-size: clamp(14px, 3.121vw, 24px);
+      line-height: clamp(17px, 3.121vw, 24px);
+
+      br {
+        display: none;
+      }
+    }
   }
 
   &__image {

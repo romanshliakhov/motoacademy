@@ -1,8 +1,9 @@
 .coaches {
-  padding-top: 120px;
+  padding-top: clamp(80px, 12.097vw, 120px);
+  background-color:  var(--main-bg);
 
   &__title {
-    margin-bottom: 70px;
+    margin-bottom: clamp(40px, 7.056vw, 70px);
   }
 
   &__wrapp {
@@ -15,9 +16,21 @@
       background-size: cover;
       background-repeat: no-repeat;
       width: 201px;
+      width: clamp(103px, 20.262vw, 201px);
       height: 347px;
+      height: clamp(178px, 34.98vw, 347px);
       top: -40%;
       left: -7%;
+
+      @media screen and (max-width: 1240px) {
+        top: -15%;
+        left: -9%;
+      }
+
+      @media screen and (max-width: 576px) {
+        top: -5%;
+        left: -20%;
+      }
     }
   }
 

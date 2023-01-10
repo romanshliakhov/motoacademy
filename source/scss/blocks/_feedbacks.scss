@@ -1,9 +1,10 @@
 .feedbacks {
-  padding: 120px 0;
+  padding: clamp(80px, 12.097vw, 120px) 0;
+  background-color:  var(--main-bg);
 
   &__inner {
     display: flex;
     flex-direction: column;
-    grid-gap: 60px;
+    grid-gap: clamp(30px, 6.048vw, 60px);
   }
 }

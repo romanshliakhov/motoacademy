@@ -1,6 +1,10 @@
 .map {
   display: flex;
-  // max-height: 625px;
+
+  @media screen and (max-width: 992px) {
+    height: clamp(433px, 63.004vw, 625px);
+  }
+
 
   picture,
   img {

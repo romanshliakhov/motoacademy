@@ -6,6 +6,8 @@
   grid-gap: 80px;
   background-color:  var(--main-bg);
 
+  display: none;
+
   &__navigation {
     display: flex;
     align-items: center;

@@ -3,11 +3,25 @@
   align-items: center;
   grid-gap: 25px;
 
+  @media screen and (max-width: 769px) {
+    grid-gap: 30px;
+  }
+
   &__btn {
     cursor: pointer;
+
+    svg {
+      width: clamp(27px, 4.839vw, 48px);
+      height: clamp(42px, 7.258vw, 72px);
+    }
   }
 
   &__pagination {
     color: var(--color-white);
+
+    @media screen and (max-width: 769px) {
+      font-size: 36px;
+      line-height: 43px;
+    }
   }
 }

@@ -1,0 +1,71 @@
+.info {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    background-image: url('../img/hero-bot-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 360px;
+    top: -40%;
+
+    @media screen and (max-width: 1240px) {
+      top: 0;
+    }
+
+    @media screen and (max-width: 992px) {
+      top: 45%;
+    }
+  }
+
+  &__wrapp {
+    position: relative;
+    background-color:  var(--main-bg);
+    z-index: 2;
+
+    @media screen and (max-width: 992px) {
+      .container {
+        padding: 0;
+      }
+    }
+  }
+
+  &__details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+    @media screen and (max-width: 992px) {
+      grid-template-columns: 100%;
+      grid-gap: 0;
+    }
+  }
+
+  &__details-item {
+    display: flex;
+    grid-gap: clamp(10px, 1.613vw, 20px);
+
+    @media screen and (max-width: 1440px) {
+      align-items: center;
+    }
+  }
+
+  &__details-info {
+    padding: 30px 12px 30px 0;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+  }
+
+  &__details-image {
+    display: flex;
+    flex-shrink: 0;
+    height: clamp(165px, 18.952vw, 188px);
+  }
+
+  &__details-title {
+    color: var(--color-orange);
+  }
+}

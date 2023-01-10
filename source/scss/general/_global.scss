@@ -4,7 +4,6 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background-color:  var(--main-bg);
 }
 
 html {
@@ -164,7 +163,11 @@ input[type="number"] {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 40px;
+
+  @media screen and (max-width: 992px) {
+    padding: 0 20px;
+  }
 }
 
 

@@ -1,16 +1,28 @@
 .gallery {
+  position: relative;
+  z-index: 2;
+  background-color:  var(--main-bg);
   padding-top: 20px;
+
+  @media screen and (max-width: 992px) {
+    padding-top: 80px;
+  }
 
   &__images {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+
+    @media screen and (max-width: 769px) {
+      grid-template-columns: repeat(3,251px);
+      margin-top: 40px;
+      overflow-x: auto;
+    }
   }
 
   &__image {
     position: relative;
     display: flex;
-    // transition: all 0.3s;
 
     &::before {
       content: '';
@@ -22,8 +34,6 @@
     }
 
     &:hover {
-      // transition: all 0.3s;
-
       &::before {
         opacity: 0;
       }
