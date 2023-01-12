@@ -127,7 +127,7 @@
 
   &__top-right {
     position: relative;
-    padding: 70px 69px 70px;
+    padding: 70px clamp(50px, 3.594vw, 69px) 70px;
     background-color: var(--color-white);
     overflow: hidden;
     z-index: 5;
@@ -153,8 +153,9 @@
   }
 
   &__top-title {
-    font-size: clamp(40px, 9.677vw, 96px);
-    line-height: clamp(50px, 12.097vw, 120px);
+    // font-size: clamp(40px, 9.677vw, 96px);
+    font-size: clamp(40px, 6vw, 96px);
+    line-height: clamp(50px, 7.5vw, 120px);
     margin-bottom: clamp(15px, 2.016vw, 20px);
     color: var(--color-orange);
   }

@@ -1,5 +1,5 @@
 .comfort {
-  padding: clamp(80px, 10.081vw, 100px) 0 clamp(80px, 12.097vw, 120px);
+  padding: clamp(80px, 6.25vw, 100px) 0 clamp(80px, 7.5vw, 120px);
   background-color:  var(--main-bg);
 
   &__inner {
@@ -17,7 +17,7 @@
     padding: 0 55px;
     display: flex;
     align-items: center;
-    grid-gap: clamp(40px, 11.593vw, 115px);
+    grid-gap: clamp(40px, 7.188vw, 115px);
     background-color: var(--main-bg);
     box-shadow: 0px 0px 222px -7px rgba(28, 28, 28, 0.61);
 

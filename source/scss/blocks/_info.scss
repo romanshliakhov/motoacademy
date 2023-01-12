@@ -25,7 +25,7 @@
     background-color:  var(--main-bg);
     z-index: 2;
 
-    @media screen and (max-width: 992px) {
+    @media screen and (max-width: 1240px) {
       .container {
         padding: 0;
       }
@@ -62,7 +62,7 @@
   &__details-image {
     display: flex;
     flex-shrink: 0;
-    height: clamp(165px, 18.952vw, 188px);
+    height: clamp(165px, 11.75vw, 188px);
   }
 
   &__details-title {

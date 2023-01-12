@@ -16,10 +16,11 @@
     margin-right: -137px;
 
     @media screen and (max-width: 1440px) {
-      margin-right: 0;
+      margin-right: -100px;
     }
 
     @media screen and (max-width: 576px) {
+      margin-right: 0;
       height: clamp(312px, 64.012vw, 365px);
     }
 
@@ -38,7 +39,7 @@
     padding: 50px;
     display: flex;
     flex-direction: column;
-    grid-gap: clamp(20px, 3.024vw, 30px);
+    grid-gap: clamp(20px, 1.875vw, 30px);
     background-color: var(--color-dark-grey2);
 
     @media screen and (max-width: 1440px) {
