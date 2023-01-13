@@ -160,13 +160,10 @@ input[type="number"] {
 
 .container {
   position: relative;
-  max-width: 1440px;
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 40px;
   padding: 0 clamp(20px, 6.25vw, 100px);
-
 }
 
 

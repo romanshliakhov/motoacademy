@@ -10,10 +10,11 @@
     width: 100%;
     height: 360px;
     top: -40%;
+    z-index: 3;
 
-    @media screen and (max-width: 1240px) {
-      top: 0;
-    }
+    // @media screen and (max-width: 1240px) {
+    //   top: 0;
+    // }
 
     @media screen and (max-width: 992px) {
       top: 45%;
@@ -23,7 +24,7 @@
   &__wrapp {
     position: relative;
     background-color:  var(--main-bg);
-    z-index: 2;
+    z-index: 5;
 
     @media screen and (max-width: 1240px) {
       .container {
