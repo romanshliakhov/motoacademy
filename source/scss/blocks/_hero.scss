@@ -44,11 +44,17 @@
     line-height: 104.8%;
     text-align: left;
     color: var(--color-dark);
+    color: var(--color-white);
+    color: var(--color-orange);
+    text-shadow: 1px 1px 2px var(--color-dark);
+    text-shadow: 1px 1px 2px var(--color-white);
+
 
     @media screen and (max-width: 992px) {
       line-height: 104.8%;
       text-align: center;
-      text-shadow: 1px 1px 2px var(--color-orange);
+      // text-shadow: 1px 1px 2px var(--color-orange);
+      // text-shadow: 1px 1px 2px var(--color-dark);
       // text-shadow: 1px 1px 2px var(--color-white);
 
       span {
@@ -62,9 +68,14 @@
     margin-bottom: 127px;
     letter-spacing: 0.05em;
     color: var(--color-dark);
+    color: var(--color-white);
+    color: var(--color-orange);
+    text-shadow: 1px 1px 2px var(--color-dark);
+    text-shadow: 1px 1px 2px var(--color-white);
 
     @media screen and (max-width: 992px) {
-      text-shadow: 1px 1px 2px var(--color-orange);
+      // text-shadow: 1px 1px 2px var(--color-orange);
+      // text-shadow: 1px 1px 2px var(--color-dark);
       // text-shadow: 1px 1px 2px var(--color-white);
     }
   }
